@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-app = Flask(__name__, template_folder='./template',static_folder='./template/screenshots')
+app = Flask(__name__, template_folder='template',static_folder='template/screenshots')
 
 @app.route("/")
 def MlOn():
